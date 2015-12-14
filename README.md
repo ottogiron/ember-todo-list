@@ -1,7 +1,6 @@
-# Client
+# Todo List
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is an implementation of http://todomvc.com/ using  ember 1.13. The back end is implemented as a separated application using go and the web framework I've implemented for learning GO https://github.com/ottogiron/chapi
 
 ## Prerequisites
 
