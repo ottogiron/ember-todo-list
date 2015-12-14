@@ -1,0 +1,19 @@
+<section class="todoapp">
+  <header id="header">
+    <h1>todos</h1>
+    {{todo-input class="new-todo" type="text" value=newTitle action="createTodo" placeholder="What needs to be done?"}}
+  </header>
+  <section class="main">
+    {{#if canToggle}}
+      {{input type="checkbox" class="toggle-all" checked=allAreDone}}
+    {{/if}}
+    {{yield}}
+  </section>
+</section>
+<footer class="info">
+  <p>Double-click to edit a todo</p>
+  <p>
+    Created by
+    <a href="http://github.com/ottogiron">Otto Giron</a>,
+  </p>
+</footer>

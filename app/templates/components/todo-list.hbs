@@ -1,0 +1,7 @@
+{{#if todos.length}}
+  <ul class="todo-list">
+    {{#each todos as |todo|}}
+      {{yield todo}}
+    {{/each}}
+  </ul>
+{{/if}}
