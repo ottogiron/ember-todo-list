@@ -22,6 +22,7 @@ You will need the following things properly installed on your computer.
 
 ## Running / Development
 
+* Run the backend. Follow the instructions here https://github.com/ottogiron/gotodo
 * `ember server`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
